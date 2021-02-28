@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/bootstrap.min.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/magnific-popup.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/animate.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/owl.carousel.min.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/slinky.min.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/slick.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/ionicons.min.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/bundle.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/style.css">
+<link rel="stylesheet" href="{{THEME_CLIENT_URL}}css/responsive.css">
