@@ -40,7 +40,10 @@ class ProductController extends BaseController
             $model->fill($_POST);
             $model->save();
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 66ce480 (up)
 =======
 >>>>>>> parent of 66ce480 (up)
             header('location: ./tao-moi');
