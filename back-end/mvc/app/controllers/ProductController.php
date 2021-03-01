@@ -51,7 +51,6 @@ class ProductController extends BaseController
             $model = new Product();
             $model->fill($data);
             $model->save();
-            
             header('location: ./san-pham');
         } else {
             header('location: ./san-pham');
