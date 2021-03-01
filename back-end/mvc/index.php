@@ -38,7 +38,7 @@ switch ($url) {
         $ctr = new CategoryController();
         $ctr->saveEdit();
         break;
-    case "san-pham": 
+    case "san-pham":
         $ctr = new ProductController();
         $ctr->index();
         break;

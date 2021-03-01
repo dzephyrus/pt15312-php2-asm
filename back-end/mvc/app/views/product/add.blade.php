@@ -2,7 +2,7 @@
 @section('title','tạo mới sản phẩm');
 
 @section('main-content')
-<form action="{{BASE_URL}}save_product" method="post" enctype="multipart/form-data">
+<form action="{{BASE_URL}}save_product" method="post">
     <div>
         <label for="">Tên sản phẩm</label>
         <input type="text" name="name">

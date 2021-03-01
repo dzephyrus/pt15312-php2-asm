@@ -34,26 +34,18 @@ class ProductController extends BaseController
     }
     public function save_product()
     {
-        // $request = new Request();
+        $request = new Request();
         if (isset($_POST) && !empty($_POST)) {
-
-
-            $data = $_POST;
-            $file = $_FILES['image'];
-            $avatar = '';
-            if ($file['size'] > 0) {
-                $avatar = "product/" . uniqid() . '--' . uniqid() . '--' . $file['name']; // uniqid() hàm tạo text ngẫu nhiên
-                move_uploaded_file($file['tmp_name'], IMAGE_BE . $avatar);
-                $data['image'] = $avatar;
-            }
-            var_dump(IMAGE_BE . $avatar); //đg dẫn ảnh đang sai
-
             $model = new Product();
-            $model->fill($data);
+            $model->fill($_POST);
             $model->save();
+<<<<<<< HEAD
             header('location: ./san-pham');
+=======
+            header('location: ./tao-moi');
+>>>>>>> parent of 66ce480 (up)
         } else {
-            header('location: ./san-pham');
+            header('location: ./tao-moi');
         }
     }
     public function edit_product()
