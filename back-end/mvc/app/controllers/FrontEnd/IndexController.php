@@ -6,7 +6,7 @@ use App\Models\Product;
 use App\Models\Category;
 
 
-class HomeController extends BaseController
+class IndexController extends BaseController
 {
 
     public function detail()
@@ -22,7 +22,7 @@ class HomeController extends BaseController
             $products = Product::all();
         }
         $products->load('category');
-        $this->render_fontend('client.index', ['products' => $products]);
+        $this->render_frontend('client.index', ['products' => $products]);
     }
 }
 

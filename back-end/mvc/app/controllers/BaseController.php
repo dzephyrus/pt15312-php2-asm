@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers\FrontEnd;
+namespace App\Controllers;
 use Jenssegers\Blade\Blade;
 
 class BaseController{

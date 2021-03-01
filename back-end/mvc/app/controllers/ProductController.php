@@ -39,15 +39,8 @@ class ProductController extends BaseController
             $model = new Product();
             $model->fill($_POST);
             $model->save();
-<<<<<<< HEAD
-<<<<<<< HEAD
-            header('location: ./san-pham');
-=======
+
             header('location: ./tao-moi');
->>>>>>> parent of 66ce480 (up)
-=======
-            header('location: ./tao-moi');
->>>>>>> parent of 66ce480 (up)
         } else {
             header('location: ./tao-moi');
         }
@@ -64,22 +57,3 @@ class ProductController extends BaseController
         }
     }
 }
-
-
-?>
-
-
-<!-- namespace App\Controllers;
-
-class ProductController
-{
-    public function index()
-    {
-        return " product home here";
-    }
-    public function about()
-    {
-        # code...
-        return " about product here";
-    }
-} -->
